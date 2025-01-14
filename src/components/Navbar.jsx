@@ -6,7 +6,8 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <div className="flex items-center justify-between py-5 font-medium">
-      <img src={assets.logo} alt="Logo" />
+      {/* <img src={assets.logo} alt="Logo" /> */}
+      <h1><span className="text-4xl ">Kureshi</span>- Thread Haven</h1>
 
       <ul className="hidden sm:flex items-center gap-3">
         <li>
